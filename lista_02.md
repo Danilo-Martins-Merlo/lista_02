@@ -398,7 +398,7 @@ Função multiplicacaoDeMatrizes(matrizA, matrizB):
         Para cada i de 0 até ((linhasA)-1) faça:
             Para cada j de 0 até ((colunasB)-1) faça:
                 matrizResultado[i][j] <- 0                
-                Para k de 0 até colunasA-1 faça:
+                Para cada k de 0 até ((colunasA)-1) faça:
                     matrizResultado[i][j] <- matrizResultado[i][j] + matrizA[i][k] * matrizB[k][j]
 
         Retornar matrizResultado
