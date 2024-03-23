@@ -333,17 +333,17 @@ aceleração;
 
 while (true){
     velocidade = velocidadeInicial + (aceleração x tempo);
-    distanciaAtual = velocidade x tempo;
+    distanciaAtual = velocidade * tempo;
 
-    Se velocidade > velocidadeMaxima{
+    if velocidade > velocidadeMaxima{
         velocidade = velocidadeMaxima
     }
 
-    Se distanciaAtual >= distancia{
+    if distanciaAtual >= distancia{
         sai do loop
     } 
     
-    Se tempo >= tempo maximo{
+    if tempo >= tempoFinal{
         sai do loop
     }
 
